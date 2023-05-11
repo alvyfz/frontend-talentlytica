@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     setState(initialState);
   }, [initialState]);
-  console.log(state);
+  
   const min = 0;
   const max = 10;
 
